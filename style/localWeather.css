@@ -1,0 +1,196 @@
+/*---------------------------------------------------------------------*/
+/*  1. STYLES
+/*  1.1 GENERAL 
+/*---------------------------------------------------------------------*/
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body { 
+  font-family: Lato, Alegreya, sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+  padding: 10px 0 10px 0;
+  color: #000;
+}
+
+/*---------------------------------------------------------------------*/
+/*  1.2. HEADER
+/*---------------------------------------------------------------------*/
+.header {
+	padding: 10px 0 10px 0;
+}
+.brand {
+  position: absolute;
+  z-index: 9999;
+  left: -12px;
+  top: -15px;
+  padding: 20px 15px 10px;
+  font-family: 'Piedra',Chewy, Wendy One, serif;
+  font-size: 42px;
+  line-height: 22px;
+  letter-spacing:5px;
+  color: #fff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #148914 ;
+}
+@media screen and (max-width: 480px) {
+  .brand {
+    font-family: 'Piedra',Chewy, Wendy One, serif;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
+/*---------------------------------------------------------------------*/
+/*  2. ICONS
+/*---------------------------------------------------------------------*/
+.fa-twitter {
+	/* color: #148914; */
+	color: #e00b2e;
+	font-size: 30px !important;
+	margin-top: -40px;
+}
+/*---------------------------------------------------------------------*/
+/*  3. SECTIONS
+/*  3.1 MAIN 
+/*---------------------------------------------------------------------*/
+#main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px 10px 10px;
+}
+.bg{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+#status-message {
+  color: #c30928;
+  font-size: 2em;
+  font-weight: 700;
+  position: relative;
+  font-family: Alegreya,Lato, serif;
+}
+/*---------------------------------------------------------------------*/
+/*  3.2. CARD
+/*---------------------------------------------------------------------*/
+#card-outer {
+	background-color: #DAE3FD;
+    box-shadow: 10px 8px 30px -4px rgba(0,0,0,0.5);
+    overflow: hidden;
+	padding: 0;
+	margin: 5px;
+	border-radius: 5px;
+	position: relative;
+}
+#card-inner {
+	/* background-color: #DAE3FD; 
+	background-color: #f0f0ff;
+    box-shadow: 10px 8px 30px -4px rgba(0,0,0,0.5); */
+	background-color: #fefefe;
+	box-shadow: 2px 2px 1px 1px #D0D0D0;
+    overflow: hidden;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 15px;
+	position: relative;
+	margin: 40px 0 40px;
+	color: #000;
+}
+.info {
+	position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		padding: 16px 20px;
+		color: #888;
+}
+/*---------------------------------------------------------------------*/
+/*  3.2.1 CARD-ITEMS
+/*---------------------------------------------------------------------*/
+
+#date {
+  text-align: right;
+  padding: 10px 15px 15px;
+  line-height: 10px;
+}
+hr {
+	border-color: #D0D0D0;
+}
+.heading-custom {
+	margin: -20px 0 10px 0;
+	color: #e00b2e;
+}
+#getIcon {
+	width: 35;
+	height: 35;
+}
+#getCondition {
+	color: #e00b2e;
+	font-weight: 700;
+}
+#getTemp {
+	 font-size: 80px;
+	 font-family: Droid Serif, serif;
+}
+#celcius, #farenheit {
+	border-radius: 100%;
+	border-color: #e00b2e;
+	vertical-align: top;
+	color: #fff;
+	background-color: #e00b2e;
+}
+.icon-set, .num-temp{
+	text-align: center;
+}
+.city-set {
+	margin-bottom: 10px;
+}
+#city-text {
+	border: 10px;
+}
+#cityInfo {
+	margin-left: 10px;
+	border-radius: 20px;
+	color: #fff;
+	border-width: 1px;
+	background-color: #e00b2e;
+}
+
+@media screen and (max-width: 767px) {
+#status-message {
+	padding-top: 20px;
+	font-size:
+}
+#getLocation {
+	font-size: 25px;
+}
+#date {
+	text-align: center;
+}
+#getTemp {
+	margin-top: 10px;
+	 font-size: 45px;
+}
+#getIcon {
+	align: left;
+}
+#celcius, #farenheit {
+	font-size: 15px;
+}
+#cityInfo {
+	margin-top: 10px;
+}
+}
+
+
+
+
+
