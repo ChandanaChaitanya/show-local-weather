@@ -74,7 +74,7 @@ function getURL(){
 }
 
 	$.ajax({
-		url:'http://ipinfo.io',
+		url:'https://ipinfo.io',
 		dataType: 'json',
 		success: function(data) {
 			var coords = data.loc.split(",");
