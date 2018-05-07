@@ -65,11 +65,11 @@ var curDate = $("#date").html(curDate());
 function getURL(){
 	//using latitude and longitude information
 	if(!cityFlag){
-		return 'http://api.openweathermap.org/data/2.5/weather?lat='+latitude+'&lon='+longitude+'&appid=1535f0d263ffc6599e272fd9c9c78f87';
+		return 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat='+latitude+'&lon='+longitude+'&appid=1535f0d263ffc6599e272fd9c9c78f87';
 	}else if(cityFlag){
-		return 'http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=1535f0d263ffc6599e272fd9c9c78f87';
+		return 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=1535f0d263ffc6599e272fd9c9c78f87';
 	}else {
-		return 'http://api.openweathermap.org/data/2.5/weather?lat=0&lon=0&appid=1535f0d263ffc6599e272fd9c9c78f87';
+		return 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=0&lon=0&appid=1535f0d263ffc6599e272fd9c9c78f87';
 	}
 }
 
